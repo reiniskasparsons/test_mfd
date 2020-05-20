@@ -70,7 +70,7 @@ function doneTyping() {
     }
 }
 
-$(document).on("click", ".js-fill-field", function () {
+$(document).on("click", ".js-fill-field", function () {ā
     $('#perscode').val($(this).html());
 });
 
